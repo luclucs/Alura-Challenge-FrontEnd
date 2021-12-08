@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style-menu.css">
+    <title>Alura Challenge</title>
+  </head>
+  <body>
+    <div class="container">
+    <header class="header">
+      <img src="/assets/header/Logo.svg" alt="Logo">
+      <input class="input-search" type="text" placeholder="Buscar">
+      <div class="profile">
+        <img src="/assets/header/Photo.png" alt="Foto" class="img-profile">
+        <span class="name-profile">Harry</span>
+      </div>
+    </header>
+    <section class="container-highlight">
+      <div class="menu-sidebar">
+        <h1>Menu</h1>
+        <ul class="menu-ul">
+          <li>
+            <a href="editor.html"><img src="/assets/main/Editor.svg" alt="Editor">Editor de Código</a>
+          </li>
+          <li>
+            <a href="comunidade.html"><img src="/assets/main/Comunidade.svg" alt="Comunidade">Comunidade</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="container-editor">
+        <div class="background-blue">
+        <div class="background-black">
+          <i><a><img src="/assets/bolinhas/icon_ball.svg" alt="Bolinhas"></a></i>
+          <textarea name="" id="" cols="30" rows="17"></textarea>
+        </div>
+      </div>
+        <button class="generate-highlight">Visualizar com highlight</button>
+      </div>
+  
+      <div class="your-project">
+        <h1>Seu projeto</h1>
+        <input type="text" placeholder="Nome do seu projeto">
+        <input id="project-desc" type="text" placeholder="Descrição do seu projeto">
+        <h1 id="personalize-h1">Personalização</h1>
+          <select>
+            <option>JavaScript</option>
+            <option>Python</option>
+            <option>Kotlin</option>
+            <option>C++</option>
+          </select>
+          <div class="div-color">
+            <input type="color" id="input-color" value="#6BD1FF"/>
+          </div>
+          <button class="btn-saveproject">Salvar projeto</button>
+      </div>
+    </section>
+  </div>
+  </body>
+  <footer></footer>
+</html>
