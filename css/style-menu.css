@@ -111,6 +111,9 @@
   opacity: 0.64;
   padding: 16px 99px 16px 14px;
 }
+.your-project > input:hover {
+  background: rgba(255, 255, 255, 0.24);
+}
 .your-project > #project-desc {
   width: 272px;
   height: 80px;
