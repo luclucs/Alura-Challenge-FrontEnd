@@ -4,7 +4,7 @@
   margin-bottom: 16px;
 }
 .menu-sidebar {
-  flex: 1.21;
+  flex: 1;
 }
 .menu-sidebar h1 {
   color: #ffffff;
@@ -192,4 +192,18 @@
 }
 .generate-highlight:hover {
   background: rgba(80, 129, 251, 0.16);
+}
+
+@media screen and (min-width:1440px) {
+  .menu-sidebar{
+    flex: 0.828;
+  }
+  .your-project > #personalize-h1 {
+    margin-top: 40px;
+  }
+}
+@media screen and (min-width:1360px) {
+  .menu-sidebar {
+    flex: 0.972;
+  } 
 }
